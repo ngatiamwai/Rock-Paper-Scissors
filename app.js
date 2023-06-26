@@ -32,22 +32,22 @@ function getResult() {
     if (computerChoice === userChoice){
         result= 'It is a draw!'
     }
-    if (computerChoice === 'rock' && userChoice === 'paper'){
+    if (computerChoice === 'Rock' && userChoice === 'Paper'){
         result= 'You Win!'
     }
-    if (computerChoice === 'rock' && userChoice === 'scissors'){
+    if (computerChoice === 'Rock' && userChoice === 'Scissors'){
         result= 'You lost!'
     }
-    if (computerChoice === 'paper' && userChoice === 'scissors'){
+    if (computerChoice === 'Paper' && userChoice === 'Scissors'){
         result= 'You Win!'
     }
-    if (computerChoice === 'paper' && userChoice === 'rock'){
+    if (computerChoice === 'Paper' && userChoice === 'Rock'){
         result= 'You lose!'
     }
-    if (computerChoice === 'scissors' && userChoice === 'rock'){
+    if (computerChoice === 'Scissors' && userChoice === 'Rock'){
         result= 'You Win!'
     }
-    if (computerChoice === 'scissors' && userChoice === 'paper'){
+    if (computerChoice === 'Scissors' && userChoice === 'Paper'){
         result= 'You lose!'
     }
     resultDisplay.innerHTML = result
